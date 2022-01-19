@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital:wght@300;400;500;700,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  background-color: #023059;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.App h1{
+  font-size: 3.4em;
+  font-weight: 900;
+  font-style: italic
+}
+header{
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navLink{
+  color: #161F26;
+  font-weight: bold;
+}
+.movieListContainer{
+  max-width: 90%;
+  margin: auto;
+}
+.content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  align-content: center;
+  row-gap: 10px;
+  padding-bottom: 20px;
+}
+.movie--content{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: end;
+  font-weight: 500;
+  height: 450px;
+}
+.movie--content img{
+  box-shadow: 0px 0px 10px 2px #161F26;
+  transition: .5s ease;
+}
+.movie--content p{
+  margin-bottom: 8px
+}
+.movie--content img:hover{
+  box-shadow: 0px 0px 18px 13px #161F26;
+}
+.genre-content{
+  display:flex;
+  padding: 20px 0;
+}
+.link--element{
+  color: #fff;
+  text-decoration: none;
+}
+.link--element:hover{
+  color: #fff;
+}
+.navigate--button{
+  display: flex;
+  justify-content: flex-start;
+}
+.navigate--button button{
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.navigate--button button:hover{
+  cursor: pointer;
+}
+.movie-container{
+  text-align: start;
+}
+.movie--information{
+   display: flex;
+   background-color: #161F26;
+   padding: 20px;
+   border-radius: 5px;
+}
+.movie-descrption{
+  list-style: none;
+  padding: 0 20px;
+}
+.movie-descrption li{
+  margin-bottom: 10px;
+}
+.previous{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  color: #161F26;
+  cursor: pointer;
+}
+.previous:hover{
+  color: #161F26;
+}
+@media(max-width: 770px){
+  .movie--information{
+    flex-direction: column;
+  }
+  .movie-descrption{
+    padding: 20px 0;
+  }
+}
