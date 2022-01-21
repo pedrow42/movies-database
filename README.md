@@ -1,13 +1,12 @@
-<h1 style="text-align: center;">
-    Movies Database
-</h1>
+# Movie Database
+
 <h1>
     <img src="src/movies.gif">
 </h1>
 
 ## 👉 About
 
-Movies Database is a personal project aiming to practice some features in React.JS. Among them are libraries such as Styled-components, React Routes and Framer Motion. For the API request, Axios was used to communicate with the TMDB (The Movie Database) API. In addition, Bootstrap was used to build the navigation bar.
+Movie Database is a personal project aiming to practice some features in React.JS. Among them are libraries such as Styled-components, React Routes and Framer Motion. For the API request, Axios was used to communicate with the TMDB (The Movie Database) API. In addition, Bootstrap was used to build the navigation bar.
 
 ---
 
